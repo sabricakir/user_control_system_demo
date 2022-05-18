@@ -1,3 +1,3 @@
-# README
+# User Control System in Rails DEMO
 
-User Control System in Rails DEMO
+
