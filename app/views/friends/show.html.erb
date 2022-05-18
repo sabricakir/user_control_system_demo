@@ -1,0 +1,9 @@
+<%= render @friend %>
+
+<div class="d-flex">
+  <%= link_to "Edit this friend", edit_friend_path(@friend), class:"btn btn-secondary me-3"%>
+  <%= button_to "Delete",@friend, method: :delete, class:"btn btn-danger me-3"%>
+  <%= link_to "Back to friends", friends_path, class:"btn btn-dark"%>
+</div>
+
+
